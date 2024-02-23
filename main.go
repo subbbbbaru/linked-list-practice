@@ -263,6 +263,6 @@ func main() {
 
 	// Test Bubble Sort
 	fmt.Println("Sorting the list using Bubble Sort:")
-	bubbleSort(linkedList)
+	sort(linkedList)
 	printList(linkedList)
 }
